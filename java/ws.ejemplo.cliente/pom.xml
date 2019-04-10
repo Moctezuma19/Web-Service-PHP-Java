@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ws.ejemplo.cliente</groupId>
+  <artifactId>ws.ejemplo.cliente</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <dependencies>
+     <!-- JAXB for Java 11 -->
+    <dependency>
+        <groupId>org.glassfish.jaxb</groupId>
+        <artifactId>jaxb-runtime</artifactId>
+        <version>2.4.0-b180830.0438</version>
+    </dependency>
+    <!-- JAXWS for Java 11 -->
+    <dependency>
+        <groupId>com.sun.xml.ws</groupId>
+        <artifactId>jaxws-rt</artifactId>
+        <version>2.3.1</version>
+        <type>pom</type>
+    </dependency>
+    <dependency>
+        <groupId>com.sun.xml.ws</groupId>
+        <artifactId>rt</artifactId>
+        <version>2.3.1</version>
+    </dependency>
+  </dependencies>
+</project>
